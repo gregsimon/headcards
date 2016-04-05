@@ -1,0 +1,7 @@
+name: headcards
+uses-material-design: true
+assets:
+  - assets/games.json
+  - assets/bell.wav
+  - assets/buzzer.wav
+

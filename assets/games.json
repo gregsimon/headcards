@@ -1,0 +1,20 @@
+{
+  "categories": 
+  [
+    {
+      "name": "Disney Characters",
+      "words": [
+        "Mickey Mouse", "Donald Duck", "Daisy Duck", "Goofy", "Dumbo",
+        "Baymax", "Anna of Arendale", "Elsa of Arendale", "Olaf", "Judy Hopps",
+        "Nicolas Wyld", "Emmett Otterton", "Sven"
+      ]
+    },
+    {
+      "name": "Super Heroes (DC)",
+      "words": [
+        "Superman", "Aquaman", "Wonder Woman", "Batman", "The Joker", "The Riddler", "The Penguin",
+        "The Flash", "Supergirl", "Cyborg"
+      ]
+    }
+  ]
+}

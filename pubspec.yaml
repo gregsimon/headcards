@@ -1,0 +1,7 @@
+name: headcards
+description: Play charades on your forehead with a friend.
+dependencies:
+  flutter:
+    path: ../flutter/packages/flutter
+  flutter_sprites:
+    path: ../flutter/packages/flutter_sprites
