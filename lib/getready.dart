@@ -32,7 +32,6 @@ class _HeadCardsGetReadyState
   @override
   initState() {
     super.initState();
-    print("_HeadCardsGetReadyState.initState()");
 
     // Note: the serivcename is ignored, but not be null.
     shell.connectToService("", _sens);
@@ -41,6 +40,11 @@ class _HeadCardsGetReadyState
     _sens.close();
   }
 
+  @override
+  dispose() {
+    _stub?.close();
+    super.dispose();
+  }
 
   void change_position(int new_pos) {
     // debounce the selection
@@ -76,7 +80,6 @@ class _HeadCardsGetReadyState
     _counter--;
 
     if (0 == _counter) {
-      _stub?.close();
       Navigator.popAndPushNamed(context, "/play");
       return;
     }

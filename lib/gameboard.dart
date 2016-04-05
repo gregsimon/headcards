@@ -49,6 +49,11 @@ class _GameState
     _gameTimer = new Timer(const Duration(seconds: 10), gameOverTimerFired);    
   }
 
+  @override
+  dispose() {
+    _stub?.close();
+    super.dispose();
+  }
 
   void change_position(int new_pos) {
     // debounce the selection
