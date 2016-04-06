@@ -67,13 +67,13 @@ class _HeadCardsPickCategoryState
           return new CategoryListItem(title: title_);
           })
       )
-      /*floatingActionButton: new FloatingActionButton(
+      , floatingActionButton: new FloatingActionButton(
         onPressed: _playGame,
         tooltip: 'Play',
         child: new Icon(
           icon: Icons.play_arrow
         )
-      )*/
+      )
     );
   }
 }
